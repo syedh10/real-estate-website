@@ -1,0 +1,242 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.logo h1 {
+    font-size: 28px; 
+    margin-bottom: 0; 
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.professional-profile {
+    border: 5px solid #007bff; /* Add border to the section */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center; /* Center text within the section */
+}
+
+.professional-profile,
+.customer-feedback {
+    margin-bottom: 40px;
+}
+
+.customer-feedback {
+    margin-bottom: 40px;
+}
+
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feedback {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    
+}
+
+.stars {
+    color: gold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Propert 1 CSS start */
+.property-details {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.thumbnails a {
+    text-decoration: none;
+}
+
+.thumbnails img {
+    max-width: 100px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+.enlarged-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.enlarged-images div {
+    display: none;
+}
+
+.enlarged-images div.default-display {
+    display: block;
+}
+
+.enlarged-images div:target {
+    display: block;
+}
+
+.enlarged-images img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+/* Propert 1 CSS ends */
+
+.available-properties {
+    margin-top: 20px;
+}
+
+.property-box {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.thumbnail {
+    text-align: center;
+}
+
+.thumbnail img {
+    max-width: 30%;
+    border-radius: 8px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.property-box a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.property-box a:hover {
+    text-decoration: underline;
+}
+
+
+.contact-form {
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+.site-map,
+.credits {
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
