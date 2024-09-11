@@ -2,7 +2,7 @@
 
 A multi-page responsive website built for a local real estate agent, showcasing properties, agent details, contact form, and more. The website is built using HTML and CSS without JavaScript, following a consistent layout across all pages.
 
-
+![image alt](https://github.com/syedh10/real-estate-website/blob/main/chrome_uNG0g9P0lQ.gif?raw=true)
 
 ## Features
 - Home Page: Displays agent's picture, mission statement, and customer feedback.
